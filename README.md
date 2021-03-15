@@ -19,8 +19,13 @@ Les données proviennent du site [WebRobots](https://webrobots.io/kickstarter-da
    - matplotlib, 
    - seaborn, 
  
- - **Data_update.py** : Effectue la mise à jour du dataset :
- - **Data_processing.py** : Effectue le data processing des données comme ceci:
+
+
+
+## Fichiers du projet
+
+- **Data_update.py** : Effectue la mise à jour du dataset :
+- **Data_processing.py** : Effectue le data processing des données comme ceci:
  
     - Conversion des timestamps en format `date`
     - Construction des variables : `Année`, `mois`, `jour`, `heure`  et `minute`
@@ -33,9 +38,9 @@ Les données proviennent du site [WebRobots](https://webrobots.io/kickstarter-da
     - Création de la variable : `proj_desc_len`
     - Réorganisation des colonnes
     
-  - **Data_webscraping.py** : permet de récupérer l'information *"coup de coeur de l'équipe"* de chaque projet et l'enregistre dans la variable `coup_de_coeur` 
-
-
-## Fichiers du projet
-
+- **Data_webscraping.py** : permet de récupérer l'information *"coup de coeur de l'équipe"* de chaque projet et l'enregistre dans la variable `coup_de_coeur` 
+ 
+- **Data_category.py** : effectue un `groupby` du dataset par la variable `cat_prim`
+ 
+- **Data_pays.py** : effectue un `groupby` du dataset par la variable `pays`
 
