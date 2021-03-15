@@ -5,9 +5,10 @@ Le projet consiste en la mise en place d'un système de classification des proje
 - Guider les créateurs dans la prise de décision sur le lancement d'une compagne sur KickStarter en fonction du sujet de leur projet 
 
 
-# Source de données
+# Source des données
 
-
+Les données proviennent du site [WebRobots](https://webrobots.io/kickstarter-datasets/), elles représentent les projets lancés sur la plateforme Kickstarter depuis Avril 2009, et crawlés par un robot tous les mois depuis mars 2016.
 
 # Fichiers du projet
+
 
