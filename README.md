@@ -18,6 +18,9 @@ Les données proviennent du site [WebRobots](https://webrobots.io/kickstarter-da
    - sklearn, 
    - matplotlib, 
    - seaborn, 
+   - time,
+   - urllib,
+   - bs4 : BeautifulSoup
  
 
 
