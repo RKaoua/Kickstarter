@@ -1,3 +1,3 @@
-# Kickstarter
-Prédiction du succès d’une campagne de financement participatif sur KickStarter
-<hr/>
+# Kickstarter : Prédiction du succès d’une campagne de financement participatif sur KickStarter
+
+
