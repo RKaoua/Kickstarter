@@ -6,10 +6,34 @@ Le projet consiste en la mise en place d'un système de classification des proje
 - Guider les créateurs dans la prise de décision sur le lancement d'une compagne sur KickStarter en fonction du sujet de leur projet 
 
 
-# Source des données
+## Source des données
 
 Les données proviennent du site [WebRobots](https://webrobots.io/kickstarter-datasets/), elles représentent les projets lancés sur la plateforme Kickstarter depuis Avril 2009, et crawlés par un robot tous les mois depuis mars 2016.
 
-# Fichiers du projet
+## Code et ressources utilisés
+- **Python Version** : 3.8.5
+- **Librairies**: 
+   - pandas, 
+   - numpy, 
+   - sklearn, 
+   - matplotlib, 
+   - seaborn, 
+ 
+ - **Data_update.py** : Effectue la mise à jour du dataset :
+ - **Data_processing.py** : Effectue le data processing des données comme ceci:
+    - Conversion des timestamps en format date
+    - Construction des variables : Année, mois, jour, heure  et minute
+    - Suppression des variables inutiles avec beaucoup de NaN 
+    - Création des variables : cat_id, cat_name et cat_prim à partir de la variable 'category'
+    - Création des variables : `crea_name` et `crea_id`
+    - Création de la variable : `proj_id`
+    - Création de la variable : `url` 
+    - Création de la variable cible : `success`
+    - Création de la variable : `proj_desc_len`
+    - Réorganisation des colonnes
+
+
+
+## Fichiers du projet
 
 
