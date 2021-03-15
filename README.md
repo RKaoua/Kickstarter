@@ -21,17 +21,19 @@ Les données proviennent du site [WebRobots](https://webrobots.io/kickstarter-da
  
  - **Data_update.py** : Effectue la mise à jour du dataset :
  - **Data_processing.py** : Effectue le data processing des données comme ceci:
-    - Conversion des timestamps en format date
-    - Construction des variables : Année, mois, jour, heure  et minute
+ 
+    - Conversion des timestamps en format `date`
+    - Construction des variables : `Année`, `mois`, `jour`, `heure`  et `minute`
     - Suppression des variables inutiles avec beaucoup de NaN 
-    - Création des variables : cat_id, cat_name et cat_prim à partir de la variable 'category'
+    - Création des variables : `cat_id`, `cat_name` et `cat_prim` à partir de la variable *'category'*
     - Création des variables : `crea_name` et `crea_id`
     - Création de la variable : `proj_id`
     - Création de la variable : `url` 
     - Création de la variable cible : `success`
     - Création de la variable : `proj_desc_len`
     - Réorganisation des colonnes
-
+    
+  - **Data_webscraping.py** : permet de récupérer l'information *"coup de coeur de l'équipe"* de chaque projet et l'enregistre dans la variable `coup_de_coeur` 
 
 
 ## Fichiers du projet
