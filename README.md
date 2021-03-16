@@ -10,7 +10,7 @@ Le projet consiste en la mise en place d'un système de classification des proje
 
 Les données proviennent du site [WebRobots](https://webrobots.io/kickstarter-datasets/), elles représentent les projets lancés sur la plateforme Kickstarter depuis Avril 2009, et crawlés par un robot tous les mois depuis mars 2016.
 
-## Code et ressources utilisés
+## Ressources utilisés
 - **Python Version** : 3.8.5
 - **Librairies**: 
    - pandas, 
@@ -23,6 +23,7 @@ Les données proviennent du site [WebRobots](https://webrobots.io/kickstarter-da
    - bs4 : BeautifulSoup
  
 ## Fichiers du projet
+
 ### Notebook Jupyter
 
 - **01_Analyse_exploratoire.ipynb** - Etape 1 : Analyse exploratoire des données
@@ -35,4 +36,14 @@ Les données proviennent du site [WebRobots](https://webrobots.io/kickstarter-da
 
 - **kickstarter.py** : Contient les fonctions suivantes : 
    - Data_update() 
+   - Data_processing()
+   - Data_webscraping
 
+### Fichiers `csv`
+
+- coup_de_coeur.csv : résultat du webscraping .
+- Les fichiers csv stockés dans le dossier `kickstarter_files` représente les dataset bruts tel que téléchargés depuis le site [WebRobots](https://webrobots.io/kickstarter-datasets/) et dézippés
+
+## Avancement du projet 
+
+Meilleur score de machine learning : 82% avec un modèle `Random Forest`
