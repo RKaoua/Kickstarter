@@ -32,6 +32,7 @@ Les données proviennent du site [WebRobots](https://webrobots.io/kickstarter-da
 - **05_Machine_learning.ipynb** : Etape 5 - Machine Learning
 
 ### Fichiers Python
+
 - **kickstarter.py** : Contient les fonctions suivantes : 
    - 
 
