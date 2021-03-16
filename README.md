@@ -34,5 +34,5 @@ Les données proviennent du site [WebRobots](https://webrobots.io/kickstarter-da
 ### Fichiers Python
 
 - **kickstarter.py** : Contient les fonctions suivantes : 
-   - 
+   - Data_update() 
 
