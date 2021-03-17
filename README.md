@@ -92,8 +92,36 @@ Les données proviennent du site [WebRobots](https://webrobots.io/kickstarter-da
       **sous_cat_Gadgets**	| 0.019900
       **duree_projet**	| 0.011614
       
+ - **Random Forest** : 
+   - Score : 0.826
+   - Matrice de confusion :
    
+      Classe prédite |0 | 1
+      :--- | --- | ---
+      **Classe Réelle**  |  |
+      **0** | 13669 | 2532 
+      **1** | 3890 | 16830 
+
+   - Feature importance :
+
+      Feature |	Importance
+      :--- | ---
+      **goal**	| 0.125031
+      **cat_id**	| 0.121634
+      **crea_id**	| 0.087198
+      **annee**	| 0.083590
+      **proj_name_len**	| 0.081325
+      **proj_desc_len**	| 0.077024
+      **duree_projet**	| 0.073205
+      **coup_de_coeur**	| 0.062149
+      **sous_cat_others**	| 0.011961
+      **sous_cat_Playing Cards**	| 0.010437
+
+Meilleur score de regression obtenu : **0.826** avec un modèle `Random Forest`
+
+### Analyse de sentiments
+
+Pour la partie analyse de sentiments, malheureusement nous ne disposons pas de ressources matériels suffisantes pour faire tourner les algorithmes d'encodages des données `CountVectorizer` , `LabelEncoder` et `OneHotEncoder` sur notre dataset.
 
 
 
-Meilleur score de machine learning : 82% avec un modèle `Random Forest`
