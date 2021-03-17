@@ -44,6 +44,16 @@ Les données proviennent du site [WebRobots](https://webrobots.io/kickstarter-da
 - coup_de_coeur.csv : résultat du webscraping .
 - Les fichiers csv stockés dans le dossier `kickstarter_files` représente les dataset bruts tel que téléchargés depuis le site [WebRobots](https://webrobots.io/kickstarter-datasets/) et dézippés
 
-## Avancement du projet 
+## Modèles réalisés et scores
 
+### Modèles de Régression
+
+- ***Logistic Regression*** :
+   - Score : 0.558
+   - Matrice de confusion :
+       | Classe prédite
+      Classe Réelle  | 0 |1
+      *** | *** | *** 
+      0 | 0 | 16296
+      1 | 0 | 20625 
 Meilleur score de machine learning : 82% avec un modèle `Random Forest`
