@@ -49,14 +49,51 @@ Les données proviennent du site [WebRobots](https://webrobots.io/kickstarter-da
 ### Modèles de Régression
 
 - ***Logistic Regression*** :
-   - Score : 0.558
+   - Score : 0.561
    - Matrice de confusion :
    
       Classe prédite |0 | 1
       :--- | --- | ---
       **Classe Réelle**  |  |
-      **0** | 0 | 16296 
-      **1** | 0 | 20625 
+      **0** | 0 | 16201 
+      **1** | 0 | 20720 
+
+- ***SVM*** :
+   - Score : 0.556
+   - Matrice de confusion : 
+   
+      Classe prédite |0 | 1
+      :--- | --- | ---
+      **Classe Réelle**  |  |
+      **0** | 0 | 16201 
+      **1** | 0 | 20720 
+
+- ***Decision Tree*** : 
+   - Score : 0.760
+   - Matrice de confusion : 
+
+      Classe prédite |0 | 1
+      :--- | --- | ---
+      **Classe Réelle**  |  |
+      **0** | 11010 | 5191 
+      **1** | 3649 | 17071
+   - Feature importance : 
+   
+      Featrure |	Importance
+      :--- | ---
+      **cat_id**	| 0.434370
+      **coup_de_coeur**	| 0.180460
+      **goal**	| 0.140758
+      **sous_cat_Playing Cards**	| 0.070796
+      **annee**	| 0.033572
+      **sous_cat_Hip-Hop**	| 0.028076
+      **cat_Art**	| 0.027892
+      **sous_cat_Software**	| 0.025456
+      **sous_cat_Gadgets**	| 0.019900
+      **duree_projet**	| 0.011614
+      
+   
+
 
 
 Meilleur score de machine learning : 82% avec un modèle `Random Forest`
